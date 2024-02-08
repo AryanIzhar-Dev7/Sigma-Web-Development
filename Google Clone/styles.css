@@ -1,0 +1,75 @@
+body{
+
+    background-color: gray;
+}
+
+
+
+
+.main{    
+    margin-top: 100px;
+}
+
+.main img{
+
+    display: block;
+    width: 300;
+    margin-bottom: 20px;
+   
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.searchbar{
+
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+   line-height: 24px;
+   padding-top: 10px;
+   padding-bottom:10px;
+
+   padding-left: 30px;
+   padding-right: 30px;
+
+   border: 1px solid #dfe1e5;
+   border-radius: 24px;
+}
+
+
+
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+
+   /* display: block
+   ; */
+   
+    /* For centering anything in Css Using below method it is quite mandatory that  */
+    /* the thing is always displayed in Block like above */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+ 
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 15px;
+
+    background: lightgray;
+    border:none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 19; 
+  
+    border-radius: 4px;
+
+}
